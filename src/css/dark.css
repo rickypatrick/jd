@@ -4,7 +4,7 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --dark: #082032;
+    --dark: #2c2c2c;
     --medium: #2C394B;
     --accent: #334756;
   }
@@ -90,6 +90,6 @@
     margin-bottom: 0rem;
   }
   #dark-mode-toggle .moon {
-    fill: #fff;
+    fill: #FBF5F3;
   }
 }

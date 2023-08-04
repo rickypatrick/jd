@@ -1,14 +1,13 @@
 {
-  "name": "Oak Harbor Web Designs",
-  "email": "hello@oakharbor.com",
-  "phone": "555-779-4407",
-  "phoneFormatted": "(555) 779-4407",
+  "name": "John Duello - Licensed Massage Therapist",
+  "email": "johndlmt@gmail.com",
+  "phone": "404-934-2165",
+  "phoneFormatted": "(404) 934-2165",
   "address": {
-    "lineOne": "First Address Line",
-    "lineTwo": "Second Address Line, If Needed",
-    "city": "Denver",
-    "county": "CO",
-    "postcode": "80206",
+    "lineOne": "122 Hodges Lane",
+    "city": "Hartwell",
+    "county": "GA",
+    "postcode": "30643",
     "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
   },
   "domain": "www.website.com"

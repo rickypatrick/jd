@@ -2,7 +2,7 @@
 layout: 'base.html'
 description: 'Meta description for the page'
 metaTitle: 'Title that shows up on google searches'
-tagTitle: 'Pixel Perfect Websites'
+tagTitle: 'Sessions Now Available'
 preloadImg: '/images/landing-1920w.webp'
 preloadCSS: '/css/local.css'
 permalink: '/'
@@ -19,30 +19,19 @@ eleventyNavigation:
 <section id="hero">
   <div class="cs-container">
     <div class="cs-flex-group">
-      <span class="cs-topper">mountain hiking society</span>
-      <h1 class="cs-title">Explore the World with Exciting People</h1>
+      
+      <h1 class="cs-title">Customized Massage Sessions for Your Specific Needs</h1>
       <p class="cs-text">
         Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh
         condimentum.
       </p>
-      <a href="" class="cs-button-solid">Explore More</a>
-      <a href="" class="cs-button-transparent">
-        <img
-          class="cs-img"
-          loading="lazy"
-          decoding="async"
-          src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
-          alt="play icon"
-          width="17"
-          height="17"
-/>
-        Learn More
-      </a>
+      <a href="" class="cs-button-solid">Contact Me</a>
+      <a href="" class="cs-button-transparent">Learn More</a>
     </div>
   </div>
 
   <!-- Background Image -->
-  {% image './src/images/landing.jpg', 'mountains', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+  {% image './src/images/spa.jpg', 'spa', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
 </section>
 
 <!-- ============================================ -->
@@ -56,13 +45,13 @@ eleventyNavigation:
       <img
         aria-hidden="true"
         decoding="async"
-        src="/assets/svgs/service1.svg"
-        alt="appliance"
+        src="/assets/images/massage.png"
+        alt="massage"
         width="48"
         height="48"
 />
     </picture>
-    <h2>Service 1</h2>
+    <h2>Integrated Massage Technique</h2>
     <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
   </div>
   <div class="card">
@@ -70,13 +59,13 @@ eleventyNavigation:
       <img
         aria-hidden="true"
         decoding="async"
-        src="/assets/svgs/service2.svg"
-        alt="appliance"
+        src="/assets/images/spa.png"
+        alt="hot stone treatment"
         width="48"
         height="48"
 />
     </picture>
-    <h2>Service 2</h2>
+    <h2>Hot Stone Treatment</h2>
     <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
   </div>
   <div class="card">
@@ -84,13 +73,27 @@ eleventyNavigation:
       <img
         aria-hidden="true"
         decoding="async"
-        src="/assets/svgs/service3.svg"
-        alt="appliance"
+        src="/assets/images/back-massage.png"
+        alt="Reflexology"
         width="48"
         height="48"
 />
     </picture>
-    <h2>Service 3</h2>
+    <h2>Reflexology</h2>
+    <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
+  </div>
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/images/body-massage.png"
+        alt="stretching back"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>Stretching</h2>
     <p>Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences.</p>
   </div>
 </section>
@@ -103,8 +106,8 @@ eleventyNavigation:
   <div class="cs-container">
     <!-- Left Image Section -->
     <div class="cs-left">
-      {% image './src/images/cabinets2.jpg', 'house', 'cs-picture cs-picture1', 'lazy'%}
-      {% image './src/images/construction.jpg', 'house', 'cs-picture cs-picture2', 'lazy'%}
+      {% image './src/images/massage2.jpg', 'hand massage', 'cs-picture cs-picture1', 'lazy'%}
+      {% image './src/images/massage1.jpg', 'neck massage', 'cs-picture cs-picture2', 'lazy'%}
     </div>
     <!-- Right Content Section-->
     <div class="cs-right">
@@ -150,8 +153,8 @@ eleventyNavigation:
   <div class="cs-container">
     <!-- Left Image Section -->
     <div class="cs-left">
-      {% image './src/images/construction.jpg', 'house', 'cs-picture cs-picture1', 'lazy'%}
-      {% image './src/images/cabinets2.jpg', 'house', 'cs-picture cs-picture2', 'lazy'%}
+      {% image './src/images/massage3.jpg', 'massage tools', 'cs-picture cs-picture1', 'lazy'%}
+      {% image './src/images/massage4.jpg', 'massage candles', 'cs-picture cs-picture2', 'lazy'%}
     </div>
     <!-- Right Content Section-->
     <div class="cs-right">
@@ -174,41 +177,7 @@ eleventyNavigation:
   </div>
 </section>
 
-<!-- ============================================ -->
-<!--                   Gallery                    -->
-<!-- ============================================ -->
 
-<section id="gallery">
-  <div class="cs-container">
-    <span class="cs-topper">Our Portfolio</span>
-    <h2 class="cs-title">Et orci volutpat, back up generator installations</h2>
-    <div class="cs-image-group">
-      <!-- Row 1-->
-      <div class="cs-row cs-row-1">
-        {% image './src/images/portfolio/port1.jpg', 'new hallway', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port4.jpg', 'new home construction', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port7.jpg', 'building a new wall', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-      </div>
-      <!-- Row 2 -->
-      <div class="cs-row cs-row-2">
-        {% image './src/images/portfolio/port2.jpg', 'new kitchen', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port5.jpg', 'apartment addition', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port8.jpg', 'kew kitchen cabinets', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-      </div>
-      <!-- Row 3 -->
-      <div class="cs-row cs-row-3">
-        {% image './src/images/portfolio/port3.jpg', 'new kitchen', 'cs-picture cs-picture-1', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port6.jpg', 'apartment addition', 'cs-picture cs-picture-2', 'lazy', '(max-width: 600px) 200px, 400px'%}
-        {% image './src/images/portfolio/port9.jpg', 'kew kitchen cabinets', 'cs-picture cs-picture-3', 'lazy', '(max-width: 600px) 200px, 400px'%}
-
-        <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
-      </div>
-    </div>
-    <a href="/projects" class="button-solid">View Full Gallery</a>
-  </div>
-</section>
 
 <!-- ============================================ -->
 <!--                   Reviews                    -->
@@ -219,14 +188,12 @@ eleventyNavigation:
     <span class="cs-topper">Our Reviews</span>
     <h2 class="cs-title">Words From Our Customers</h2>
     <p class="cs-text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis
-      sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum
-      dolor sit amet.
+      Many more referrals are available upon request but here are a few recent reviews from satisfied clients.
     </p>
     <ul class="cs-card-group">
       <!-- Review 1 -->
       <li class="cs-item">
-        <img
+        <!-- <img
           class="cs-item-img"
           aria-hidden="true"
           loading="lazy"
@@ -235,15 +202,13 @@ eleventyNavigation:
           alt="profile picture"
           width="80"
           height="80"
-/>
+/> -->
         <p class="cs-item-p">
-          Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna
-          pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa
-          urna, volutpat orci imperdiet eget eget.
+          John is a talented, creative, experienced, intuitive, professional Massage Therapist. I moved here recently, leaving behind my MT of 8 years, and was very concerned about finding anyone as good again. I came across John on an internet search, and one of his clients left a review that sounded exactly like what I was looking for. I booked a massage with John, and I have never looked back. I highly recommend John.
         </p>
         <span class="cs-reviewer">
-          Jon Doe
-          <span class="cs-desc">Homeowner</span>
+          Jan B
+          <span class="cs-desc">Lavonia, GA</span>
         </span>
         <img
           class="cs-item-stars"
@@ -258,24 +223,13 @@ eleventyNavigation:
       </li>
       <!-- Review 2 -->
       <li class="cs-item">
-        <img
-          class="cs-item-img"
-          aria-hidden="true"
-          loading="lazy"
-          decoding="async"
-          src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png"
-          alt="profile picture"
-          width="80"
-          height="80"
-/>
+        
         <p class="cs-item-p">
-          Dictum dolor, nullam morbi sem in auctor proin. Consequat dolor habitasse nam sed tempor. Viverra magna
-          pharetra rhoncus, nec sed ullamcorper lectus et. Auctor velit diam fermentum consequat. Feugiat viverra massa
-          urna, volutpat orci imperdiet eget eget.
+          I was in the mountains, on a get away, stress release, chillout, healing weekend. I was looking for a really good deep tissue Swedish therapeutic massage. I got one of the best ever. He found knots and tight spots, I had no clue were there, and had the patients of Job to work on them until they were gone. His massage was the icing on the cake to reset and rebalance my body before I had to go back to the real world. If you are in the Hartwell, Bowman, Eleberton, Royston, or Dewy Rose area, be sure to take advantage of this very talented LMT. He is dual licensed in Georgia and South Carolina.
         </p>
         <span class="cs-reviewer">
-          Jane Doe
-          <span class="cs-desc">Homeowner</span>
+          Clay M
+          <span class="cs-desc">Atlanta, GA</span>
         </span>
         <img
           class="cs-item-stars"
@@ -289,7 +243,7 @@ eleventyNavigation:
 />
       </li>
     </ul>
-    <a aria-label="read more reviews" href="/reviews" class="button-solid">Read More</a>
+    <!-- <a aria-label="read more reviews" href="/reviews" class="button-solid">Read More</a> -->
   </div>
 </section>
 <!-- ============================================ -->
@@ -299,16 +253,14 @@ eleventyNavigation:
 <section id="cta">
   <div class="container">
     <h2 class="title">
-      Get It Done <br/>
-      With Us Today
+      Make an Appointment.<br/>Feel Better.
     </h2>
     <p>
-      Say something catchy, informative, and encouraging to click the button to go to the contact page. I like to add
-      these to the bottom of all pages.
+      Licensed Massage Therapist serving the Hartwell, Lavonia, Royston, and Elberton area. 
     </p>
-    <a href="/contact" class="button-solid">Get an Estimate Now</a>
+    <a href="/contact" class="button-solid">Contact Me</a>
   </div>
-  {% image './src/images/cabinets2.jpg', 'kitchen cabinets', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+  {% image './src/images/spa.jpg', 'spa', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
 </section>
 
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

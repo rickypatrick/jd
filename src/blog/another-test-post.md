@@ -1,13 +1,16 @@
 ---
 pageName: another-test-post
-blogTitle: Test Post
+blogTitle: Benefits of Massage
 titleTag: Another Test Post
-blogDescription: Here is another test post to make sure that everything is sound and smooth
-author: Joe Mendez
-date: 2022-12-16T19:45:03.587Z
+blogDescription: In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis.
+author: John Duello
+date: 2023-8-3T19:45:03.587Z
 tags:
   - post
-image: https://images.unsplash.com/photo-1670768563220-c13cfa7e1dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80.jpg
+  - featured
+image: https://images.pexels.com/photos/3872899/pexels-photo-3872899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 imageAlt: Mountains
 ---
-Testing testing 1 2 3
+In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+
+In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.

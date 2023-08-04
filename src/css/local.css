@@ -25,7 +25,7 @@
     position: relative;
   }
   #sbs .cs-picture {
-    border-radius: 1.5em;
+    border-radius: 0 5rem;
     /* clips img tag corners */
     overflow: hidden;
     position: absolute;
@@ -210,7 +210,7 @@
     position: relative;
   }
   #sbs-r .cs-picture {
-    border-radius: 1.5em;
+    border-radius: 5rem 0;
     /* clips img tag corners */
     overflow: hidden;
     position: absolute;

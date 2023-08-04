@@ -4,9 +4,9 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #FFBA19;
+    --primary: #FD6932;
     --primaryShade: #ffd675;
-    --primaryDark: #805d0d;
+    --primaryDark: #6A2e35;
     --bodyTextColor: #4E4B66;
     --bodyTextColorWhite: #FAFBFC;
     --headerColor: #1a1a1a;
@@ -19,28 +19,28 @@
   }
   /* roboto-regular - latin */
   @font-face {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    src: local(''), url('/assets/fonts/roboto-v29-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/roboto-v29-latin-regular.woff') format('woff');
+    src: local(''), url('/src/assets/fonts/Montserrat-VariableFont_wght.ttf') format('ttf'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/src/assets/fonts/Montserrat-VariableFont_wght.ttf') format('ttf');
     
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* roboto-700 - latin */
   @font-face {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    src: local(''), url('/assets/fonts/roboto-v29-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/roboto-v29-latin-700.woff') format('woff');
+    src: local(''), url('/src/assets/fonts/Montserrat-VariableFont_wght.ttf') format('ttf'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/src/assets/fonts/Montserrat-VariableFont_wght.ttf') format('ttf');
     
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* roboto-900 - latin */
   @font-face {
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 900;
-    src: local(''), url('/assets/fonts/roboto-v29-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/roboto-v29-latin-900.woff') format('woff');
+    src: local(''), url('/src/assets/fonts/Montserrat-VariableFont_wght.ttf') format('ttf'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/src/assets/fonts/Montserrat-VariableFont_wght.ttf') format('ttf');
     
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
@@ -49,7 +49,7 @@
     margin: 0;
     padding: 0;
     font-size: 100%;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     color: var(--bodyTextColor);
     overflow-x: hidden;
   }
@@ -340,7 +340,7 @@
 }
 /* Desktop */
 @media only screen and (min-width: 64em) {
-  ::-webkit-scrollbar-track {
+  /* ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 0.375em rgba(0, 0, 0, 0.3);
     background-color: #fff;
   }
@@ -354,7 +354,7 @@
   ::-webkit-scrollbar-thumb {
     border-radius: 0.625em;
     background: var(--primary);
-  }
+  } */
   body.scroll #navigation .background-color-div {
     height: 100%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -391,7 +391,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #FBF5F3;
     height: 0;
     transition: height .3s;
   }
@@ -403,7 +403,7 @@
   }
   #navigation .logo {
     margin-right: auto;
-    height: 3.75rem;
+    height: 5rem;
     width: auto;
   }
   #navigation .logo img {
@@ -423,13 +423,13 @@
   }
   #navigation #navbar-menu ul li a {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     /* 14px - 18px */
     font-size: clamp(0.875rem, 1.5vw, 1.125rem);
     text-transform: uppercase;
     position: relative;
     z-index: 1;
-    color: #fff;
+    color: var(--bodyTextColorWhite);
     transition: color .3s;
   }
   #navigation #navbar-menu ul li a:before {
@@ -437,10 +437,10 @@
     position: absolute;
     display: block;
     height: 0.375rem;
-    border-radius: 0.1875rem;
+    border-radius: 0.2rem 0;
     background: var(--primary);
     opacity: 1;
-    bottom: 0.125rem;
+    bottom: -0.5rem;
     z-index: -1;
     left: 0;
     width: 0%;
@@ -457,8 +457,8 @@
     height: 0.375rem;
     background: var(--primary);
     opacity: 1;
-    bottom: 0.125rem;
-    border-radius: 0.1875rem;
+    bottom:-0.5rem;
+    border-radius: 0 0.2rem;
     left: 0rem;
     right: -0.375rem;
     z-index: -1;
@@ -509,6 +509,7 @@
   }
   body.dark-mode #navigation .logo .light {
     display: block;
+    
   }
   body.dark-mode #navigation .logo .dark {
     display: none !important;

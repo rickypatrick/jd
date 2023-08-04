@@ -156,13 +156,17 @@
     align-items: flex-start;
     justify-content: flex-end;
   }
+  #cs-contact .cs-right-section img {
+    border-radius:5rem;
+    
+  }
   #cs-contact .cs-header {
     /* 16px - 20px */
     font-size: clamp(1rem, 3vw, 1.25rem);
     line-height: 1.2em;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    color: var(--bodyTextColorWhite);
+    color: #000;
     display: block;
   }
   #cs-contact .cs-link {
@@ -171,7 +175,7 @@
     line-height: 1.2em;
     text-decoration: none;
     margin-bottom: 1.25rem;
-    color: var(--bodyTextColorWhite);
+    color: #000;
     display: block;
     position: relative;
   }
