@@ -275,6 +275,7 @@
     max-width: 22.3125em;
     margin: auto;
     margin-bottom: 3.125em;
+    padding:2em;
     
   }
   .services .card:last-of-type {
