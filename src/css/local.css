@@ -163,7 +163,7 @@
     border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
   }
   body.dark-mode #sbs .cs-topper {
-    color: var(--primaryLight);
+    color: var(--bodyTextColorWhite);
   }
   body.dark-mode #sbs .cs-title,
   body.dark-mode #sbs .cs-text,
@@ -347,7 +347,7 @@
     border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
   }
   body.dark-mode #sbs-r .cs-topper {
-    color: var(--primaryLight);
+    color: var(--bodyTextColorWhite);
   }
   body.dark-mode #sbs-r .cs-title,
   body.dark-mode #sbs-r .cs-text,
@@ -602,6 +602,7 @@
   #reviews .cs-item {
     /* reset margin so it won't interfere with flexbox */
     margin: 0;
+    min-height: 30rem;
   }
 }
 /* Dark Mode */

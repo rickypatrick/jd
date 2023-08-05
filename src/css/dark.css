@@ -5,8 +5,8 @@
 @media only screen and (min-width: 0em) {
   :root {
     --dark: #2c2c2c;
-    --medium: #2C394B;
-    --accent: #334756;
+    --medium: #777777;
+    --accent: #fd6932;
   }
   body.dark-mode {
     background-color: var(--dark);
@@ -92,4 +92,5 @@
   #dark-mode-toggle .moon {
     fill: #FBF5F3;
   }
+  
 }
