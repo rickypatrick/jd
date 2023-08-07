@@ -318,13 +318,14 @@
   .services {
     font-size: min(1.8vw, 1em);
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     width: 98%;
   }
   .services .card {
-    margin: 0;
-    max-width: 20.3125em;
+    margin: auto;
+    max-width: 60%;
   }
 }
 /* Large Desktop */
@@ -332,6 +333,9 @@
   /* .services {
     padding: 3.125em 5em;
   } */
+  .services {
+    flex-direction: unset;
+  }
   .services .card {
     max-width: 22.3125em;
     background-color: #FBF5F3;
