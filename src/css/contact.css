@@ -300,7 +300,9 @@
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
   body.dark-mode #cs-contact .cs-text,
-  body.dark-mode #cs-contact .cs-title {
+  body.dark-mode #cs-contact .cs-title,
+  body.dark-mode #cs-contact .cs-header,
+  body.dark-mode #cs-contact .cs-link {
     color: var(--bodyTextColorWhite);
   }
   body.dark-mode #cs-contact #cs-form label,
