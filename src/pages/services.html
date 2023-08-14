@@ -1,0 +1,104 @@
+---
+layout: 'base.html'
+description: 'Meta description for the page'
+metaTitle: 'Title that shows up on OG social Media Title Tag'
+tagTitle: 'Reviews'
+preloadImg: '/images/massage4.jpg'
+preloadCSS: '/css/services.css'
+permalink: 'services/'
+eleventyNavigation:
+    key: Services
+    order: 400
+---
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">Our Services</h1>
+  {% image './src/images/massage4.jpg', 'spa', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+
+
+
+<section id="services" class="services">
+  
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/images/massage.png"
+        alt="massage"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>Swedish Massage</h2>
+    <p>A Swedish massage is the most common type of massage that uses several different techniques to help the body relax and decompress from muscle tension and soreness. It helps with blood circulation, decrease stress and, relieves muscle tightness.
+    </p>
+  </div>
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/images/spa.png"
+        alt="hot stone treatment"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>Deep Tissue</h2>
+    <p>Deep tissue massage is a massage technique involving slow strokes using direct pressure or friction movements to break up adhesions in the muscle tissue. This technique targets muscles below the body's surface and is used with chronic pain and athletes.</p>
+  </div>
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/images/back-massage.png"
+        alt="Reflexology"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>Reflexology</h2>
+    <p>Reflexology is a practice applying different amounts of pressure to different points on the hands and feet.  These different points are believed to represent different parts of the body; and by manipulating these points, you can improve the health of the body.</p>
+  </div>
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/images/body-massage.png"
+        alt="stretching back"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>Thai Massage</h2>
+    <p>Thai massage or Thai yoga massage combines yogic stretches with acupressure. The therapist manipulates the body in different yoga poses while pressing and kneading the muscles with their hands and feet
+
+      The client wears loose fitting clothing and oil/ lotion is not used.</p>
+  </div>
+</section>
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">
+      Make an Appointment.<br/>Feel Better.
+    </h2>
+    <p>
+      Licensed Massage Therapist serving the Hartwell, Lavonia, Royston, and Elberton area. 
+    </p>
+    <a href="/contact" class="button-solid">Contact Me</a>
+  </div>
+  {% image './src/images/spa.jpg', 'spa', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>

@@ -342,7 +342,7 @@
     border-radius: 0.3125em;
     padding: 2em;
     margin: 1em;
-    min-height: 30rem;
+    min-height: 38rem;
     box-shadow:5px 5px;
     border-top:solid var(--primary) 0.375em;
   }
@@ -389,5 +389,6 @@
     margin: 1em;
     min-height: 30rem;
     box-shadow:5px 5px;
+    min-height: 38rem;
   }
 }
