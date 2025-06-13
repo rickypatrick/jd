@@ -7,7 +7,7 @@ blogDescription: Frozen shoulder, also known as adhesive capsulitis, is a
   typically develops slowly over time and progresses through stages, with
   symptoms worsening before gradually improving. The condition can last for
   several months to a few years.
-author: John Duello
+author: Ricky Patrick
 date: 2023-09-14T19:42:21.622Z
 tags:
   - post

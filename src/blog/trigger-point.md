@@ -5,7 +5,7 @@ titleTag: What is a Trigger Point?
 blogDescription: A trigger point, also known as a myofascial trigger point, is a
   localized area of muscle tightness and tenderness that can be felt as a
   palpable knot or nodule within a muscle.
-author: John Duello
+author: Ricky Patrick
 date: 2023-09-19T12:24:25.009Z
 tags:
   - post

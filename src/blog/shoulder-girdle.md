@@ -7,7 +7,7 @@ blogDescription: The shoulder girdle, also known as the pectoral girdle or
   human body that connect the upper limbs (arms) to the axial skeleton (the
   trunk of the body). It plays a crucial role in the mobility and function of
   the arms and shoulders.
-author: John Duello
+author: Ricky Patrick
 date: 2023-10-16T13:23:55.545Z
 tags:
   - post

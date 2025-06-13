@@ -6,7 +6,7 @@ blogDescription: During a pregnancy massage, the well-being and comfort of both
   the pregnant person and the fetus are the primary concerns. When performed by
   a trained and qualified massage therapist who specializes in prenatal massage,
   it can be safe and beneficial for pregnant individuals.
-author: John Duelo
+author: Ricky Patrick
 date: 2023-09-23T11:46:23.803Z
 tags:
   - post

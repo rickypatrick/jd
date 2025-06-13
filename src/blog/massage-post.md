@@ -3,7 +3,7 @@ pageName: massage-post
 blogTitle: Benefits of Massage
 titleTag: Benefits of Massage
 blogDescription: In today's fast-paced world, where stress and tension are often unwelcome companions, the art of massage therapy has emerged as a beacon of hope for those seeking respite and rejuvenation.
-author: John Duello
+author: Ricky Patrick
 date: 2023-8-3T19:45:03.587Z
 tags:
   - post

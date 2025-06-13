@@ -5,7 +5,7 @@ titleTag: What is the difference between a massage therapist and masseur?
 blogDescription: The terms "massage therapist" and "masseur" both refer to
   individuals who provide massage services, but there are some key differences
   in how these terms are used and the connotations they carry.
-author: John Duello
+author: Ricky Patrick
 date: 2023-10-09T17:12:09.226Z
 tags:
   - post

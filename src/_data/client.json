@@ -1,14 +1,14 @@
 {
-  "name": "John Duello - Licensed Massage Therapist",
-  "email": "johndlmt@gmail.com",
-  "phone": "404-934-2165",
-  "phoneFormatted": "(404) 934-2165",
+  "name": "Ricky Patrick - Licensed Massage Therapist",
+  "email": "rickydpatrick@gmail.com",
+  "phone": "706-498-0600",
+  "phoneFormatted": "(706) 498-0600",
   "address": {
-    "lineOne": "122 Hodges Lane",
+    "lineOne": "123 Main Street",
     "city": "Hartwell",
     "county": "GA",
     "postcode": "30643",
     "mapLink": "https://goo.gl/maps/reqUv9WokEjCP6Rd9"
-  },
-  "domain": "www.relaxwithjohn.com"
+  }
+  
 }

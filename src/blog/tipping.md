@@ -6,7 +6,7 @@ blogDescription: Tipping practices can vary depending on where you live and
   local customs, but in many cultures, it is customary to tip your massage
   therapist. Tips are a way to show appreciation for their services and to
   acknowledge the quality of their work.
-author: John Duello
+author: Ricky Patrick
 date: 2023-10-02T17:06:47.006Z
 tags:
   - post
